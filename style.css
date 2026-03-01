@@ -12,29 +12,15 @@ body {
   display: flex;
 }
 
-.title {
-  width: 70%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 .pips-bot {
   position: fixed;
   display: flex;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   bottom: 0;
 }
 
 .pips-top {
   position: fixed;
   display: flex;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   top: 0;
 }
 
@@ -45,5 +31,9 @@ body {
 }
 
 .title img {
-  width: 100%;
+  width: 70%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
